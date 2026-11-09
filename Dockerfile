@@ -4,6 +4,7 @@ RUN apk add --no-cache \
     ffmpeg \
     libwebp-tools \
     python3 \
+    py3-setuptools \
     make \
     g++
 ADD https://api.github.com/repos/souravkl11/raganork-md/git/refs/heads/main version.json
